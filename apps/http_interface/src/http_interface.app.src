@@ -1,0 +1,16 @@
+{application, http_interface,
+  [{description, "interface to start http client worker"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, { http_interface_app, []}},
+    {applications,
+      [kernel,
+        stdlib
+      ]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, []},
+    {links, []}
+  ]}.

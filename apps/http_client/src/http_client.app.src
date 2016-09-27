@@ -1,0 +1,17 @@
+{application, http_client,
+  [{description, "http client module"},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {mod, { http_client_app, []}},
+    {applications,
+      [kernel,
+        stdlib,
+        gun
+      ]},
+    {env,[]},
+    {modules, []},
+
+    {maintainers, []},
+    {licenses, []},
+    {links, []}
+  ]}.
