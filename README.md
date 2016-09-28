@@ -1,5 +1,7 @@
 # revolver
 
+version 0.1
+
 standard HTTP client module to send asynchronous HTTP request.
 
 ### dependencies
